@@ -16,7 +16,7 @@ int main()
     }
     infile.close();
     ofstream outfile;
-    outfile.open("commandlist.txt",ios::app);
+    //outfile.open("commandlist.txt",ios::app);
     cout<<echo;
     getline(cin,command);
 
@@ -37,7 +37,9 @@ int main()
                     getline(cin,choice);
                     while(choice=="")getline(cin,choice);
                     knowncommands.insert(make_pair<string,string>(command,choice));
+                    outfile.open("commandlist.txt",ios::app);
                     outfile<<command<<endl<<choice<<endl;
+                    outfile.close();
                     valid=1;
                 }
                 else if(choice=="no")
