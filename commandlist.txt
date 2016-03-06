@@ -1,19 +1,18 @@
-ping
-start ping 172.16.0.1 -t
 clear
 cls
+codeblocks
+start "codeblocks" "C:\Program Files (x86)\CodeBlocks\codeblocks.exe"
+google
+start chrome "google.com"
+ping
+start ping 172.16.0.1 -t
+psiphon
+start "psiphon" "E:\movies + soft\psiphon3.exe"
+spotify
+start "spotify" "C:\Users\samsung\AppData\Roaming\Spotify\Spotify.exe"
 start hotspot
 netsh wlan start hostednetwork
 stop hotspot
 netsh wlan stop hostednetwork
-psiphon
-start "psiphon" "E:\movies + soft\psiphon3.exe"
-codeblocks
-start "codeblocks" "C:\Program Files (x86)\CodeBlocks\codeblocks.exe"
-spotify
-start "spotify" "C:\Users\samsung\AppData\Roaming\Spotify\Spotify.exe"
-google
-start chrome "google.com"
 youtube
 start chrome "youtube.com"
-
